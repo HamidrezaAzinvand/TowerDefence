@@ -1,0 +1,44 @@
+* {
+    font-family: sans-serif;
+}
+#sc {
+    background-color: wheat;
+    border: none;
+    width: 100px;
+    height: 25px;
+    box-shadow: 2px 2px 3px;
+    transition: .3s;
+}
+#sc:hover {
+    cursor: pointer;
+}
+#sc:active {
+    transform: scale(90%);
+}
+
+#dow {
+    background-color: darkred;
+    border: none;
+    width: 100px;
+    height: 25px;
+    box-shadow: 2px 2px 3px;
+    transition: .3s;
+}
+#backPa {
+    margin-left: auto;
+    margin-right: auto;
+}
+#pa1 {
+    background-color: wheat;
+    color: black;
+}
+#pa2 {
+    background-color: wheat;
+    color: black;
+}
+#pa1:hover {
+    background-color: gold;
+}
+#pa2:hover {
+    background-color: gold;
+}
